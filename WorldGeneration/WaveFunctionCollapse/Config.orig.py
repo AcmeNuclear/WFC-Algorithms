@@ -1,18 +1,14 @@
 
 SPRITESHEET_PATH = "../../Assets/SpriteSheets/PunyWorld/punyworld-overworld-tileset.png"
 
-# Worlds size in tiles
+# worls size in tiles
 WORLD_X = 60
 WORLD_Y = 34
 
 # Spritesheet tile size (original), and upscale factor
 TILESIZE = 16
-SCALETILE = 1
+SCALETILE = 2
 
-# Maximum speed in FPS to control speed of mapping (lower is slower).
-# Original speed was 60 = progress will be no faster than 60 frames per second.
-# Value of 1 or 2 is good for studying progression.
-CLOCK_TICK_VALUE = 2000
 
 # Directions
 NORTH = 0

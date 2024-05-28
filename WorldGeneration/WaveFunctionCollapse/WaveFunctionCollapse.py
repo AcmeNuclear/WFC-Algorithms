@@ -55,7 +55,7 @@ while isRunning:
     drawWorld.draw(displaySurface)
 
     pygame.display.flip()
-    clock.tick(60)
+    clock.tick(CLOCK_TICK_VALUE)
 
 
 pygame.quit()
